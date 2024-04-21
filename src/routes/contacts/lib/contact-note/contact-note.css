@@ -1,0 +1,19 @@
+.contact-note {
+    .newest-note {
+        display: flex;
+        font-size: 12px;
+        gap: .5rem;
+        margin-bottom: .5rem;
+    }
+
+    .oldests {
+        ul {
+            margin-top: 0;
+            font-size: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+            margin-left: 15px;
+        }
+    }
+}

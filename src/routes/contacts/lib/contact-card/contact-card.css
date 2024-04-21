@@ -1,0 +1,22 @@
+.contact-card {
+    border-bottom: 1px solid #232323;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+
+    h4 {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .details-content {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .top-heading {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+}

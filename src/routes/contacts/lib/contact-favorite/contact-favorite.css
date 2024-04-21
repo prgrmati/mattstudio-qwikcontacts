@@ -1,0 +1,6 @@
+.favorite {
+    img {
+        user-select: none;
+        cursor: pointer;
+    }
+}

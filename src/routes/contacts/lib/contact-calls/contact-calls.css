@@ -1,0 +1,36 @@
+.contact-calls {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+    h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .single-call {
+        display: flex;
+        gap: 5px;
+        font-size: 12px;
+        border-bottom: 1px solid #8080804d;
+        padding-bottom: .2rem;
+
+        .call-type {
+            display: flex;
+            flex-direction: column;
+            gap: .2rem;
+
+            > span:last-child {
+                color: #808080;
+            }
+        }
+
+        &:last-of-type {
+            border-bottom: 1px solid transparent;
+        }
+    }
+
+    .btn {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+}
